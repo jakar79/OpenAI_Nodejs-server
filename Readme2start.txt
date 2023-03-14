@@ -1,16 +1,15 @@
 
-$ mkdir openai_api_srv
-$ npm init -y
-$ npm install dotenv express openai
+1- $ mkdir openai_api_srv
+2- $ npm init -y
+3- $ npm install dotenv express openai
 
-creat .env file in root directory
+4- creat .env file in root directory
 
-For Testing:
-
-Start the server: 
+5- For Testing:
+    Start the server: 
 $ node index.js
 
-and write:
+and write cmd:
 
 $ curl -X POST \
     http://localhost:5000/ask \
