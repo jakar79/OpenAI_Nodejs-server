@@ -3,6 +3,8 @@ $ mkdir openai_api_srv
 $ npm init -y
 $ npm install dotenv express openai
 
+creat .env file in root directory
+
 For Testing:
 
 Start the server: 
